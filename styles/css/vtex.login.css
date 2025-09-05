@@ -1,0 +1,48 @@
+.container :global(.vtex-button) {
+  border: none;
+}
+.container :global(.vtex-button):hover {
+  background-color: transparent;
+}
+.container :global(.vtex-button) :global(.vtex-button__label) {
+  background-color: #FFB802;
+  padding: 10px 18px;
+  border-radius: 4px;
+  min-height: 52px;
+  margin-left: 18px;
+  transition: all 0.1s ease;
+}
+.container :global(.vtex-button) :global(.vtex-button__label):hover {
+  transform: scale(1.05);
+}
+.container :global(.vtex-button) :global(.vtex-button__label) :global(.login-icon) .profileIcon {
+  display: none;
+}
+.container :global(.vtex-button) :global(.vtex-button__label) :global(.login-icon)::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background-image: url("assets/logni-header.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.container :global(.items-center) {
+  margin: 0;
+}
+.container :global(.flex.pv2.items-center) {
+  padding: 0 0 0 8px;
+}
+.container :global(.flex.pv2.items-center) .label {
+  font-size: 0.75rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  text-align: left;
+  color: #000;
+}
+.container :global(.flex.pv2.items-center) .label::after {
+  content: "Entre ou cadastre-se";
+  display: block;
+  text-transform: none;
+  margin-top: 2px;
+}

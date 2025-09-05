@@ -1,20 +1,72 @@
+@use '../_variables' as *
+
+
 //Topbar middle image
 .imageElement--topbar-star
     padding: 0 .5rem
     box-sizing: border-box
 
-
-
 // Header
+
+
+//Logo
+.logoContainer.sizeDesktop
+    padding: 0
+    margin-right: 60px
+
+//Search bar
+.searchBarContainer
+    padding: 0
+
+    :global(.vtex-input-prefix__group)
+        height: 52px
+        line-height: 52px
+        border-radius: 5px
+        border: none
+        :global(.vtex-styleguide-9-x-input)
+            border: none
+            background-color: #F5F5F5
+            padding: 0 26px
+            font-family: $main-font
+            font-size: .875rem
+            font-weight: 400
+            color: #737373
+        :global(.vtex-input__suffix)
+            padding: 0
+            :global(.vtex-store-components-3-x-searchBarIcon)
+                margin: 0
+                background-color: $sec-color
+                transition: all 0.1s ease
+                &::before
+                    content: ""
+                    display: flex
+                    width: 22px
+                    height: 22px
+                    background-image: url("assets/search-header-icon.svg")
+                    background-repeat: no-repeat
+                    background-size: contain
+                    transition: all 0.1s ease
+                &:hover
+                    transform: scale(1.05)
+                :global(.vtex-store-components-3-x-searchIcon)
+                    display: none
+            :global(.vtex-store-components-3-x-externalSearchButtonWrapper)
+                border: none
+            :global(.vtex-store-components-3-x-searchBarIcon--clear)
+                display: none
+   
+
 
 // Wishlist
 .imageElementLink--wishlist-icon
     display: flex
     align-items: center
     justify-content: center
+    margin-left: 0.5rem
 .imageElement--wishlist-icon
     object-fit: cover
     object-position: top
-    transition: object-position 0.1s ease
+    transition: transform 0.1s ease
     &:hover
         object-position: bottom
+        transform: scale(1.1)

@@ -27,6 +27,10 @@
         background-image: url("assets/minicart-header.svg")
         background-repeat: no-repeat
         background-size: contain
+        transition: all 0.1s ease
+    &:hover
+        &::before
+            transform: scale(1.2)
 
     .cartIcon
         display: none

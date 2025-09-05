@@ -45,7 +45,7 @@
     "children": [
       "flex-layout.col#logo-desktop",
       "flex-layout.col#search-bar-col",
-      "login",
+      "login#header-login",
       "image#wishlist-icon",
       "minicart.v2"
     ]
@@ -56,8 +56,36 @@
       "blockClass": "desk-header-col"
     },
     "children": [
-      "search-bar"
+      "search-bar#header-search-bar"
     ]
+  },
+
+  "search-bar#header-search-bar": {
+    "props": {
+      "placeholder": "Qual produto você procura?",
+      "displayMode": "search-and-clear-buttons"
+    }
+  },
+
+  "login#header-login": {
+    "props": {
+      "optionsTitle": "Escolha uma forma de login",
+      "emailAndPasswordTitle": "Entrar com e-mail e senha",
+      "accessCodeTitle": "Entrar com código de acesso",
+      "emailPlaceholder": "Digite seu e-mail",
+      "passwordPlaceholder": "Digite sua senha",
+      "acessCodePlaceholder": "Digite o código recebido",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": true,
+      "iconLabel": "Minha Conta",
+      "hideIconLabel": false,
+      "labelClasses": ["login-icon", "highlighted"],
+      "providerPasswordButtonLabel": "Continuar com senha",
+      "identifierPlaceholder": "CPF ou CNPJ",
+      "invalidIdentifierError": "Identificador inválido. Tente novamente.",
+      "mirrorTooltipToRight": false
+    }
+
   },
 
   "flex-layout.row#5-desktop-menu": {
@@ -134,6 +162,7 @@
       "fullWidth": true
     }
   },
+ 
   "drawer": {
     "children": ["menu#drawer"]
   },

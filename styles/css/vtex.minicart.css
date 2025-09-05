@@ -30,6 +30,10 @@
   background-image: url("assets/minicart-header.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  transition: all 0.1s ease;
+}
+.minicartIconContainer:hover::before {
+  transform: scale(1.2);
 }
 .minicartIconContainer .cartIcon {
   display: none;
