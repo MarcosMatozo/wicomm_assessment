@@ -1,0 +1,32 @@
+.openIconContainer
+    padding: 6px
+    :global(.vtex-button)
+        border: none
+        &:hover
+            background-color: transparent
+    :global(.vtex-button__label)
+        padding: 0
+
+    .minicartQuantityBadge
+        background-color: #000000
+        color: #fff
+        font-size: 0.5rem
+        font-weight: 600
+        top: 2px
+        right: 0
+        width: 14px
+        height: 14px
+        box-sizing: border-box
+
+.minicartIconContainer
+    &::before
+        content: ""
+        display: flex
+        width: 30px
+        height: 31px
+        background-image: url("assets/minicart-header.svg")
+        background-repeat: no-repeat
+        background-size: contain
+
+    .cartIcon
+        display: none

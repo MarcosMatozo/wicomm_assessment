@@ -31,11 +31,11 @@
     "props": {
       "blockClass": "sticky-header"
     },
-    "children": ["flex-layout.row#4-desktop"]
+    "children": ["flex-layout.row#4-desktop", "flex-layout.row#5-desktop-menu"]
   },
   "flex-layout.row#4-desktop": {
     "props": {
-      "blockClass": "main-header",
+      "blockClass": ["main-header", "container"],
       "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
@@ -44,12 +44,33 @@
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#category-menu",
-      "search-bar",
-      "locale-switcher",
+      "flex-layout.col#search-bar-col",
       "login",
+      "image#wishlist-icon",
       "minicart.v2"
     ]
+  },
+  "flex-layout.col#search-bar-col": {
+    "props": {
+      "width": "grow",
+      "blockClass": "desk-header-col"
+    },
+    "children": [
+      "search-bar"
+    ]
+  },
+
+  "flex-layout.row#5-desktop-menu": {
+    "children": [
+      "flex-layout.col#category-menu"
+    ],
+    "props":{
+      "blockClass": "category-menu",
+      "horizontalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true
+    }
   },
   "flex-layout.col#logo-desktop": {
     "props": {
@@ -70,6 +91,27 @@
       "url": "assets/logo_amakha.jpg",
       "width": "108",
       "height": "54"
+    }
+  },
+  "image#wishlist-icon":{
+    "props":{
+      "src": "assets/wishlist-header2.svg",
+      "blockClass": "wishlist-icon",
+      "width": "30px",
+      "height": "30px",
+      "title": "Wishlist",
+      "link": {
+          "url": "/wishlist",
+          "title": "Wishlist" // Optional: title for accessibility
+        }
+    }
+  },
+   "link#wishlist_link": {
+    "props": {
+      "url": "/wishlist",
+      "attributeNofollow": false,
+      "attributeTitle": "Wishlist",
+      "newTab": false
     }
   },
   "header-layout.mobile": {

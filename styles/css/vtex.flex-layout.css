@@ -12,9 +12,22 @@
 
 .flexRowContent--main-header {
   background-color: #fff !important;
+  justify-content: space-between;
+  padding: 0.5rem 0;
 }
 
-.flexCol--container {
+.flexCol--desk-header-col {
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.flexColChild--desk-header-col {
+  width: 100%;
+}
+
+.flexCol--container, .flexRow--container {
   max-width: 1280px;
   margin: 0 auto;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }

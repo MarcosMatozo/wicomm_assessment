@@ -2,3 +2,22 @@
   padding: 0 0.5rem;
   box-sizing: border-box;
 }
+
+.imageElementLink--wishlist-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageElement--wishlist-icon {
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+  transition: object-position 0.1s ease;
+  transition: object-position 0.1s ease, -o-object-position 0.1s ease;
+}
+.imageElement--wishlist-icon:hover {
+  -o-object-position: bottom;
+     object-position: bottom;
+}

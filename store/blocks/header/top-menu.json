@@ -36,7 +36,8 @@
     "props": {
       "src": "assets/topbar-star.svg",
       "blockClass": "topbar-star",
-      "verticalAlign": "middle"
+      "verticalAlign": "middle",
+      "title": "Amakha Paris"
     }
   },
 
