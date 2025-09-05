@@ -1,10 +1,55 @@
 {
-  "vtex.menu@2.x:menu#websites": {
-    "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
-    ]
+  "flex-layout.col#topbar":{
+    "props":{
+      "blockClass": ["topbar", "container"],
+      "width": "grow"
+    },
+    "children": ["flex-layout.row#topbar-row"]
   },
+
+  "flex-layout.row#topbar-row": {
+    "children": ["flex-layout.col#topbar-col"]
+  },
+
+  "flex-layout.col#topbar-col": {
+    "props":{
+      "blockClass": "topbar-col",
+      "verticalAlign": "middle"
+    },
+    "children": ["rich-text#topbar", "image#topbar-icon", "rich-text#warning-message"]
+  },
+
+  "flex-layout.col#warning": {
+    "children": ["rich-text#warning-message"]
+  },
+
+  "rich-text#topbar": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "SEMANA DO **CONSUMIDOR**",
+      "blockClass": "topbar-message"
+    }
+  },
+
+  "image#topbar-icon": {
+    "props": {
+      "src": "assets/topbar-star.svg",
+      "blockClass": "topbar-star",
+      "verticalAlign": "middle"
+    }
+  },
+
+   "rich-text#warning-message": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "FRETE GRÁTIS EM COMPRAS ACIMA DE 199,90 R$",
+      "blockClass": "warning-message"
+    }
+  },
+
+
   "menu-item#shop": {
     "props": {
       "id": "menu-item-shop",
@@ -19,11 +64,6 @@
         "text": "Shop"
       }
     }
-  },
-  "vtex.menu@2.x:menu#institutional": {
-    "children": [
-      "menu-item#vtex-website"
-    ]
   },
   "menu-item#vtex-website": {
     "props": {
