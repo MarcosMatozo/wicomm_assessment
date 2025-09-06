@@ -1,0 +1,48 @@
+.menuContainerNav .styledLinkContainer {
+  margin: 0 30px 0 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.menuContainerNav .styledLinkContainer .styledLink {
+  display: flex;
+  border-radius: 4px;
+  padding: 0 18px;
+  background-color: #FAFAFA;
+  min-height: 36px;
+  border: 1px solid transparent;
+  transition: all 0.1s ease;
+}
+.menuContainerNav .styledLinkContainer .styledLink:hover {
+  border-color: #FFB802;
+  transform: scale(1.05);
+}
+.menuContainerNav .styledLinkContainer .styledLink--highlight {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+}
+.menuContainerNav .styledLinkContainer .styledLink--highlight .styledLinkContent {
+  color: #FFB802;
+}
+.menuContainerNav .styledLinkContainer .styledLinkIcon {
+  margin: 0 0.5rem 0 0;
+}
+.menuContainerNav .styledLinkContainer .styledLinkContent {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #000;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.menuContainerNav .styledLinkContainer .styledLinkContent--has-submenu::after {
+  content: "";
+  width: 11px;
+  height: 7px;
+  background-image: url("assets/menu-arrow-down.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: 8px;
+}

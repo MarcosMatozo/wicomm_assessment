@@ -34,21 +34,12 @@
   background-color: #FFB802;
   transition: all 0.1s ease;
 }
-.searchBarContainer :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) :global(.vtex-store-components-3-x-searchBarIcon)::before {
-  content: "";
-  display: flex;
-  width: 22px;
-  height: 22px;
-  background-image: url("assets/search-header-icon.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  transition: all 0.1s ease;
-}
 .searchBarContainer :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) :global(.vtex-store-components-3-x-searchBarIcon):hover {
   transform: scale(1.05);
 }
 .searchBarContainer :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) :global(.vtex-store-components-3-x-searchBarIcon) :global(.vtex-store-components-3-x-searchIcon) {
-  display: none;
+  width: 22px;
+  height: 22px;
 }
 .searchBarContainer :global(.vtex-input-prefix__group) :global(.vtex-input__suffix) :global(.vtex-store-components-3-x-externalSearchButtonWrapper) {
   border: none;

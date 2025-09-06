@@ -37,19 +37,11 @@
                 margin: 0
                 background-color: $sec-color
                 transition: all 0.1s ease
-                &::before
-                    content: ""
-                    display: flex
-                    width: 22px
-                    height: 22px
-                    background-image: url("assets/search-header-icon.svg")
-                    background-repeat: no-repeat
-                    background-size: contain
-                    transition: all 0.1s ease
                 &:hover
                     transform: scale(1.05)
                 :global(.vtex-store-components-3-x-searchIcon)
-                    display: none
+                    width: 22px
+                    height: 22px
             :global(.vtex-store-components-3-x-externalSearchButtonWrapper)
                 border: none
             :global(.vtex-store-components-3-x-searchBarIcon--clear)

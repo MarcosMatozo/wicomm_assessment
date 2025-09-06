@@ -22,19 +22,10 @@
   box-sizing: border-box;
 }
 
-.minicartIconContainer::before {
-  content: "";
-  display: flex;
-  width: 30px;
-  height: 31px;
-  background-image: url("assets/minicart-header.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  transition: all 0.1s ease;
-}
-.minicartIconContainer:hover::before {
+.minicartIconContainer:hover .cartIcon {
   transform: scale(1.2);
 }
 .minicartIconContainer .cartIcon {
-  display: none;
+  width: 31px;
+  height: 31px;
 }

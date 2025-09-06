@@ -16,15 +16,8 @@
   transform: scale(1.05);
 }
 .container :global(.vtex-button) :global(.vtex-button__label) :global(.login-icon) .profileIcon {
-  display: none;
-}
-.container :global(.vtex-button) :global(.vtex-button__label) :global(.login-icon)::before {
-  content: "";
   width: 22px;
   height: 22px;
-  background-image: url("assets/logni-header.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 .container :global(.items-center) {
   margin: 0;

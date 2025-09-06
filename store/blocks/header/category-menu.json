@@ -1,19 +1,21 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true
+      "experimentalOptimizeRendering": true,
+      "iconPosition": "left"
     },
     "children": [
       "menu-item#category-apparel",
       "menu-item#category-home",
-      "menu-item#more"
+      "menu-item#more",
+      "menu-item#highlight"
     ]
   },
   "menu-item#category-apparel": {
     "props": {
       "id": "menu-item-category-apparel",
+      "blockClass": ["has-submenu"],
       "type": "custom",
-      "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
@@ -21,6 +23,13 @@
         "noFollow": false,
         "tagTitle": "Apparel & Accessories",
         "text": "Apparel & Accessories"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 24,
+        "viewBox": "0 0 24 24",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
       }
     },
     "blocks": [
@@ -198,6 +207,29 @@
         "noFollow": true,
         "tagTitle": "Contact Us",
         "text": "Contact Us"
+      }
+    }
+  },
+
+  "menu-item#highlight": {
+    "props": {
+      "id": "menu-item-custom-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": true,
+        "tagTitle": "Promoções",
+        "text": "Promoções"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 24,
+        "viewBox": "0 0 24 24",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
       }
     }
   }
