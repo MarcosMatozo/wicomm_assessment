@@ -36,6 +36,43 @@
   padding-bottom: 1rem;
 }
 
+.flexRow--home-deals {
+  background-color: rgba(245, 245, 245, 0.9607843137);
+  padding: 45px 0;
+}
+.flexRow--home-deals :global(.vtex-store-components-3-x-container) {
+  padding: 0;
+  max-width: unset;
+}
+.flexRow--home-deals :global(.vtex-flex-layout-0-x-flexCol) {
+  flex-direction: row;
+  align-items: center;
+}
+
+.flexColChild--container.flexColChild--deals {
+  margin: auto;
+}
+.flexColChild--container.flexColChild--deals :global(.vtex-rich-text-0-x-paragraph--deals) {
+  color: #545454;
+}
+.flexColChild--container.flexColChild--deals .flexCol--dealsImage {
+  margin: 0 20px;
+}
+.flexColChild--container.flexColChild--deals .flexColChild--dealsImage {
+  display: flex;
+  align-items: center;
+}
+.flexColChild--container.flexColChild--deals .flexColChild--dealsImage :global(.vtex-store-components-3-x-imageElement) {
+  margin-right: 12px;
+  max-height: initial !important;
+  max-width: unset;
+}
+.flexColChild--container.flexColChild--deals .flexColChild--dealsImage :global(.vtex-rich-text-0-x-paragraph--deals) {
+  text-align: left;
+  text-wrap: nowrap;
+  line-height: 1;
+}
+
 .flexCol--container, .flexRow--container {
   max-width: 1280px;
   margin: 0 auto;

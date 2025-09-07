@@ -6,8 +6,10 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       
       //Custom app - Offer Timer
-      "exampleapp",
+      "offer-timer",
+      
       "flex-layout.row#deals",
+
       "__fold__",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
@@ -25,10 +27,12 @@
       "preload": true,
       "images": [
         {
+          "width": "auto",
           "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
         },
         {
+          "width": "auto",
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
         }

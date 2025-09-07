@@ -1,3 +1,10 @@
 .wrapper--sticky-header {
   background-color: #fff !important;
 }
+
+.container--sticky-header {
+  background-color: #fff;
+}
+.container--sticky-header :global(.vtex-flex-layout-0-x-flexRowContent--main-header) {
+  box-shadow: none !important;
+}

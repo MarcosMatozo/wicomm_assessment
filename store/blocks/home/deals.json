@@ -1,26 +1,45 @@
 {
   "flex-layout.row#deals": {
     "children": [
+      "flex-layout.col#deals-container-col"
+    ],
+    "props": {
+      "blockClass": ["home-deals"]
+    }
+  },
+  
+  "flex-layout.col#deals-container-col":{
+    "children": [
+      "flex-layout.row#deals-container"
+    ],
+    "props": {
+      "blockClass": ["container", "deals"]
+    }
+  },
+
+  "flex-layout.row#deals-container":{
+    "children": [
       "flex-layout.col#deals1",
       "flex-layout.col#deals2",
       "flex-layout.col#deals3",
       "flex-layout.col#deals4"
-    ],
-    "props": {
-      "blockClass": "deals"
-    }
+    ]
   },
 
   "flex-layout.col#deals1": {
     "children": [
       "image#deal1",
       "rich-text#deal1"
-    ]
+    ],
+    "props": {
+      "blockClass": "dealsImage"
+    }
   },
   "image#deal1": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/box.png",
-      "maxHeight": "24px"
+      "width": "33px",
+      "height": "33px"
     }
   },
   "rich-text#deal1": {
@@ -33,12 +52,16 @@
     "children": [
       "image#deal2",
       "rich-text#deal2"
-    ]
+    ],
+    "props": {
+      "blockClass": "dealsImage"
+    }
   },
   "image#deal2": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/delivery-fast.png",
-      "maxHeight": "24px"
+      "width": "33px",
+      "height": "33px"
     }
   },
   "rich-text#deal2": {
@@ -51,12 +74,16 @@
     "children": [
       "image#deal3",
       "rich-text#deal3"
-    ]
+    ],
+    "props": {
+      "blockClass": "dealsImage"
+    }
   },
   "image#deal3": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/store.png",
-      "maxHeight": "24px"
+      "width": "33px",
+      "height": "33px"
     }
   },
   "rich-text#deal3": {
@@ -69,12 +96,16 @@
     "children": [
       "image#deal4",
       "rich-text#deal4"
-    ]
+    ],
+    "props": {
+      "blockClass": "dealsImage"
+    }
   },
   "image#deal4": {
     "props": {
       "src": "https://storecomponents.vteximg.com.br/arquivos/coupon.png",
-      "maxHeight": "24px"
+      "width": "33px",
+      "height": "33px"
     }
   },
   "rich-text#deal4": {
