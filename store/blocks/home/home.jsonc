@@ -6,7 +6,7 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       
       //Custom app - Offer Timer
-      "teste-apaap",
+      "exampleapp",
       "flex-layout.row#deals",
       "__fold__",
       "rich-text#shelf-title",
