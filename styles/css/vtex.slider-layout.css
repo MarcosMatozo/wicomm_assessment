@@ -7,11 +7,60 @@
   background-color: #fff !important;
 }
 
-.slide {
-  padding: 0 4px !important;
+.slide:not(.forceStyle) {
+  padding: 0 4px;
+  margin-bottom: 35px;
+  min-height: auto;
 }
 
 .slideChildrenContainer--shelf {
   border: 1px solid #f6f6f6;
   border-radius: 8px;
+  padding: 8px;
+}
+.slideChildrenContainer--shelf :global(.vtex-product-summary-2-x-container) {
+  max-width: unset !important;
+}
+
+.sliderLayoutContainer--shelf {
+  padding: 0 !important;
+}
+
+.sliderArrows {
+  margin: 0;
+}
+.sliderArrows.sliderLeftArrow::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  background-image: url("assets/arrow-left.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sliderArrows.sliderRightArrow::before {
+  content: "";
+  width: 35px;
+  height: 35px;
+  background-image: url("assets/arrow-right.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.sliderArrows .caretIcon--shelf {
+  display: none;
+}
+
+.paginationDotsContainer {
+  margin: 0;
+  padding: 10px 0;
+}
+.paginationDotsContainer .paginationDot {
+  width: 12px;
+  height: 12px;
+  margin: 0 5px;
+  background-color: #D9D9D9;
+}
+.paginationDotsContainer .paginationDot--isActive {
+  background-color: #000;
 }

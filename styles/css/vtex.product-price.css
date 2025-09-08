@@ -2,7 +2,7 @@
   position: absolute;
   z-index: 90;
   left: 10px;
-  top: 10px;
+  top: 0;
   background-color: #FFB802;
   border-radius: 4px;
   padding: 1px 6px;
@@ -13,4 +13,25 @@
   font-size: 0.8125em;
   color: #fff;
   display: block;
+}
+
+.listPrice--summary {
+  align-content: center;
+  margin: 1px 0 0;
+}
+.listPrice--summary .currencyContainer--summary {
+  font-size: 0.8124rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  color: #000;
+}
+
+.sellingPriceValue--summary {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+}
+
+.installments--summary {
+  margin: 0;
 }

@@ -82,6 +82,8 @@
 
 .flexCol--top-wrap {
   position: relative;
+  height: auto;
+  margin-bottom: 10px;
 }
 .flexCol--top-wrap:hover .flexRow--top-buy-btn {
   display: block;
@@ -105,4 +107,8 @@
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 0.875rem;
+}
+
+.flexRowContent--selling-price-savings {
+  margin-bottom: 5px;
 }

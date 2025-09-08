@@ -1,5 +1,26 @@
+@use "../variables" as *
 // .forceSelector is used to override the default selector
 //     and avoid the need to use !important
 .productHighlightWrapper:not(.forceSelector)
     position: relative
     z-index: 90
+    margin-bottom: 5px
+    top: initial
+    left: initial
+    display: flex
+    [data-highlight-name="Frete Grátis"]
+        background-color: #fff
+        color: $sec-color
+    [data-highlight-name="Cupom com 15% OFF"]
+        background-color: #000
+        color: #fff
+    [data-highlight-name="Dia do consumidor"]
+        background-color: #B88400
+        color: #fff
+    .productHighlightText
+        font-weight: 400
+        font-size: 0.8125rem
+        text-transform: uppercase
+        padding: 1px 8px
+        border-radius: 4px
+        line-height: 17px

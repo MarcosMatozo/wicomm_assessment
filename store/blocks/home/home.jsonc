@@ -7,15 +7,16 @@
       
       //Custom app - Offer Timer
       "offer-timer",
-      
       "flex-layout.row#deals",
-
       "__fold__",
+
+      // Showcase 1
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      
+      // Showcase 2
+      "rich-text#shelf-title2",
+      "flex-layout.row#shelf2",
       "newsletter"
     ]
   },
@@ -54,11 +55,26 @@
 
   "rich-text#shelf-title": {
     "props": {
-      "text": "## Summer",
+      "text": "Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "Winter",
       "blockClass": "shelfTitle"
     }
   },
   "flex-layout.row#shelf": {
+    "props":{
+      "blockClass": "container"
+    },
+    "children": ["list-context.product-list#demo1"]
+  },
+  "flex-layout.row#shelf2": {
+    "props":{
+      "blockClass": "container"
+    },
     "children": ["list-context.product-list#demo1"]
   },
   "list-context.product-list#demo1": {
@@ -66,6 +82,26 @@
     "children": ["slider-layout#demo-products"],
     "props": {
       "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "list-context.product-list#demo2": {
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#demo-products2"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC"
+    }
+  },
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
     }
   },
   "slider-layout#demo-products": {
@@ -80,32 +116,16 @@
       "blockClass": "shelf"
     }
   },
-
-  "info-card#home": {
+  "slider-layout#demo-products2": {
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": false,
+      "blockClass": "shelf"
     }
   }
 }

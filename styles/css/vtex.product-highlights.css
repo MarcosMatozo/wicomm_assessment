@@ -1,4 +1,29 @@
+@charset "UTF-8";
 .productHighlightWrapper:not(.forceSelector) {
   position: relative;
   z-index: 90;
+  margin-bottom: 5px;
+  top: initial;
+  left: initial;
+  display: flex;
+}
+.productHighlightWrapper:not(.forceSelector) [data-highlight-name="Frete Grátis"] {
+  background-color: #fff;
+  color: #FFB802;
+}
+.productHighlightWrapper:not(.forceSelector) [data-highlight-name="Cupom com 15% OFF"] {
+  background-color: #000;
+  color: #fff;
+}
+.productHighlightWrapper:not(.forceSelector) [data-highlight-name="Dia do consumidor"] {
+  background-color: #B88400;
+  color: #fff;
+}
+.productHighlightWrapper:not(.forceSelector) .productHighlightText {
+  font-weight: 400;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  padding: 1px 8px;
+  border-radius: 4px;
+  line-height: 17px;
 }
