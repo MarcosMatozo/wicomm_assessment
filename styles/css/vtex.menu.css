@@ -68,8 +68,27 @@
   justify-content: start;
 }
 
+.menuContainerNav--first-submenu-container {
+  display: block;
+  width: 100%;
+}
+.menuContainerNav--first-submenu-container .menuContainer--first-submenu-container {
+  max-height: 250px;
+  overflow-y: scroll;
+  display: block;
+  -moz-column-count: 3;
+       column-count: 3;
+}
+.menuContainerNav--first-submenu-container .menuContainer--first-submenu-container .menuItem {
+  -moz-column-break-inside: avoid;
+       break-inside: avoid;
+}
+
 .menuItem .menuItem .styledLink {
   margin-bottom: 0.5rem;
+}
+.menuItem .menuItem .styledLinkContent {
+  text-transform: none;
 }
 .menuItem--first-submenu .styledLinkContainer {
   margin: 0;

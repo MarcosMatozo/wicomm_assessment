@@ -45,7 +45,8 @@
   },
   "vtex.menu@2.x:menu#category-apparel": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass": "first-submenu-container"
     },
     "children": [
       "menu-item#category-apparel-clothing",
