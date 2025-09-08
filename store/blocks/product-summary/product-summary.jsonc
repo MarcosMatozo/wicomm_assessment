@@ -2,6 +2,7 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
+      "vtex.product-highlights@2.x:product-highlights#collection",
       "product-summary-name",
       "flex-layout.col#productRating",
       "product-summary-space",
@@ -20,9 +21,8 @@
 
   "stack-layout#prodsum": {
     "children": [
-      "product-summary-image#shelf",
-      "vtex.product-highlights@2.x:product-highlights#collection",
-      "modal-trigger#quickview" // Check quickview.jsonc
+      "add-to-list-btn",
+      "product-summary-image#shelf"
     ]
   },
 
