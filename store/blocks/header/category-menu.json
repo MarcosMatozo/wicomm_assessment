@@ -1,7 +1,6 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "props": {
-      "experimentalOptimizeRendering": true,
       "iconPosition": "left"
     },
     "children": [
@@ -60,6 +59,7 @@
       "type": "custom",
       "iconId": null,
       "highlight": false,
+      "blockClass": "first-submenu",
       "itemProps": {
         "type": "internal",
         "href": "/apparel---accessories/clothing/",
@@ -67,7 +67,10 @@
         "tagTitle": "Clothing",
         "text": "Clothing"
       }
-    }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#category-clothing"
+    ]
   },
   "menu-item#category-apparel-accessories": {
     "props": {
@@ -98,6 +101,24 @@
         "text": "Eyeglasses"
       }
     }
+  },
+  "vtex.menu@2.x:submenu#category-clothing":{
+    "props": {
+      "width": "auto",
+      "blockClass": "thirty-menu"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#category-clothing"
+    ]
+  },
+  "vtex.menu@2.x:menu#category-clothing": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#about-us",
+      "menu-item#faq"
+    ]
   },
   "menu-item#category-home": {
     "props": {

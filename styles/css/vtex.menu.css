@@ -46,3 +46,40 @@
   background-size: contain;
   margin-left: 8px;
 }
+
+.menuItem--isOpen .styledLinkContent--has-submenu::after {
+  transform: rotate(180deg);
+}
+
+.submenuWrapper {
+  margin: 0;
+  width: 100%;
+}
+
+.submenuContainer:not(.forceStyle) {
+  position: static;
+}
+.submenuContainer:not(.forceStyle) .flexRowContent--category-menu {
+  justify-content: center;
+  padding-bottom: 1rem;
+  position: relative;
+}
+.submenuContainer:not(.forceStyle) .submenu {
+  justify-content: start;
+}
+
+.menuItem .menuItem .styledLink {
+  margin-bottom: 0.5rem;
+}
+.menuItem--first-submenu .styledLinkContainer {
+  margin: 0;
+}
+.menuItem--first-submenu .submenuWrapper {
+  padding: 0 2rem;
+  border: none;
+}
+
+.submenuContainer--thirty-menu:not(.forceStyle) .submenuWrapper--thirty-menu {
+  display: flex;
+  position: relative;
+}

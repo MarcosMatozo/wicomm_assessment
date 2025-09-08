@@ -31,9 +31,8 @@
   display: flex;
 }
 
-.flexRowContent--category-menu {
-  justify-content: center;
-  padding-bottom: 1rem;
+.flexRowContent--container {
+  position: relative;
 }
 
 .flexRow--home-deals {

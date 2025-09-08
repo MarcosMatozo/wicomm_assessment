@@ -44,3 +44,52 @@
                     background-repeat: no-repeat
                     background-size: contain
                     margin-left: 8px
+
+// menuItem = <li>
+.menuItem
+    &--isOpen
+        .styledLinkContent
+            &--has-submenu
+                &::after
+                    transform: rotate(180deg)
+
+
+//Submenu
+.submenuWrapper
+    margin: 0
+    width: 100%
+
+.submenuContainer:not(.forceStyle)
+    position: static
+    .flexRowContent--category-menu
+        justify-content: center
+        padding-bottom: 1rem
+        position: relative
+
+    .submenu
+        justify-content: start
+
+
+.menuItem
+
+    .menuItem
+        .styledLink
+            margin-bottom: .5rem
+
+    &--first-submenu
+        .styledLinkContainer
+            margin: 0
+            
+        .submenuWrapper
+            padding: 0 2rem
+            border: none
+
+
+
+//Subs inside subs
+.submenuContainer--thirty-menu:not(.forceStyle)
+    .submenuWrapper--thirty-menu
+        display: flex
+        position: relative
+
+
