@@ -1,3 +1,4 @@
 .productHighlightWrapper:not(.forceSelector) {
   position: relative;
+  z-index: 90;
 }

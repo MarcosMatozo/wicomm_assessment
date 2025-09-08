@@ -12,5 +12,6 @@
 }
 
 .slideChildrenContainer--shelf {
-  border: 1px solid #eee;
+  border: 1px solid #f6f6f6;
+  border-radius: 8px;
 }

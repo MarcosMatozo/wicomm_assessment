@@ -1,0 +1,25 @@
+@use "../variables" as *
+//Showcase / Shelf
+.flexCol--top-wrap
+    position: relative
+    &:hover
+        .flexRow--top-buy-btn
+            display: block
+.flexRow--top-buy-btn
+    position: absolute
+    left: 0
+    bottom: 0
+    width: 100%
+    z-index: 90
+    display: none
+
+    :global(.vtex-button)
+        border: none
+        background-color: #000
+        border-radius: 0
+        
+        :global(.vtex-add-to-cart-button-0-x-buttonText)
+            font-weight: 600
+            color: #fff
+            font-family: $main-font
+            font-size: .875rem

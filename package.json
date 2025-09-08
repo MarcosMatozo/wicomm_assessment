@@ -9,7 +9,7 @@
     "dev": "mix watch",
     "production": "mix --production",
     "prod": "mix --production -- --watch --progress",
-    "link": "vtex link --verbose"
+    "link": "vtex link --verbose -c"
   },
   "devDependencies": {
     "concurrently": "^9.2.1",
