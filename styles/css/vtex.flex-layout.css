@@ -269,6 +269,10 @@
 .flexColChild--footer-col.flexColChild--footer-col-4 .flexColChild--info-icon-text {
   align-items: center;
 }
+.flexColChild--logo-col {
+  display: flex;
+  align-items: center;
+}
 .flexColChild :global(.vtex-menu-2-x-styledLinkContainer) {
   margin: 0;
 }
