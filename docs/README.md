@@ -12,7 +12,7 @@ This repository contains the solution developed for the technical assessment for
  - [Figma](https://www.figma.com/design/b2TxEm7rvvj0ocG48zB4eP/Wicomm---Teste-Pr%C3%A1tico?node-id=328-141&p=f&t=pnlbJvTSNSn2EH7b-0)
  - [VTEX Workspace "marcoshenrique"](https://marcoshenrique--wicommpartnerbr.myvtex.com/)
 
-## Visualizar o teste - View the test
+## Rodar localmente - Run locally
 
 Baixar este repositório e rodar:  ~ Download this repository and run: ~
 
