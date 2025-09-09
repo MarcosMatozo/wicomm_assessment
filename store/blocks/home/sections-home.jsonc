@@ -72,6 +72,73 @@
         ]
     },
 
+    "flex-layout.row#static-instagram":{
+        "props": {
+            "blockClass": ["static-instagram", "container"],
+            "colSizing": "auto"
+        },
+        "children": [
+            "flex-layout.col#static-instagram-left",
+            "flex-layout.col#static-instagram-right"
+        ]
+    },
+
+    "flex-layout.col#static-instagram-left":{
+        "props": {
+            "width": "25%",
+            "blockClass": "static-instagram-left"
+        },
+        "children": [
+            "rich-text#static-instagram-left"
+        ]
+    },
+    "flex-layout.col#static-instagram-right":{
+        "props": {
+            "width": "75%",
+            "blockClass": "static-instagram-right"
+        },
+        "children": [
+            "list-context.image-list#static-instagram-images"
+        ]
+    },
+
+    "list-context.image-list#static-instagram-images": {
+        "children": ["slider-layout#static-instagram-images"],
+        "props": {
+        "width": 249,
+        "height": 249,
+        "preload": true,
+        "images": [
+            {
+            "width": "auto",
+            "image": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-desktop.png",
+            "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/Class&Style-mobile.png"
+            },
+            {
+            "width": "auto",
+            "image": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration.png",
+            "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-decoration-mobile.png"
+            }
+        ]
+        }
+    },
+
+    "slider-layout#static-instagram-images": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+        "infinite": true,
+        "showNavigationArrows": "desktopOnly",
+        "showPaginationDots": "never",
+        "blockClass": "carousel"
+        }
+    },
+
+
+
     "rich-text#bg-gray-section-content-1-text": {
         "props": {
             "textAlignment": "CENTER",
@@ -88,6 +155,13 @@
         }
     },
 
+    "rich-text#static-instagram-left": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": "Fique por dentro das nossas redes sociais @amakhaoficial"
+        }
+    },
     "rich-text#bg-gray-section-content-3-text": {
         "props": {
             "textAlignment": "CENTER",

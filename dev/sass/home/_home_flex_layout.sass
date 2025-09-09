@@ -95,3 +95,42 @@
                 font-family: Poppins, sans-serif
                 padding: 0 4.375rem
                 margin: 0
+
+
+// Instagram Feed
+.flexRow
+    &--static-instagram
+        padding: 2rem 0
+        
+
+        :global(.vtex-rich-text-0-x-paragraph)
+            margin: 0
+            font-weight: 300
+            font-size: 1.25rem
+            font-family: Poppins, sans-serif
+            max-width: 80%
+            text-align: left
+
+.flexCol
+    &--static-instagram-right
+        :global(.vtex-slider-layout-0-x-caretIcon)
+            display: none !important
+
+        :global(.vtex-slider-layout-0-x-slide)
+            margin-bottom: 0 !important
+
+
+.flexColChild
+    &--static-instagram-left
+        :global(.vtex-rich-text-0-x-container)
+            height: 100%
+            padding: 0 33px
+            box-shadow: 9px 0px 8px -8px #00000040
+            margin-right: 5px
+    
+    &--static-instagram-right
+        padding: 0 3rem
+        :global(.vtex-slider-layout-0-x-sliderLeftArrow)
+            left: -3rem
+        :global(.vtex-slider-layout-0-x-sliderRightArrow)
+            right: -3rem

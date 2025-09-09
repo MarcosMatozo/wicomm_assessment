@@ -134,6 +134,41 @@
   margin: 0;
 }
 
+.flexRow--static-instagram {
+  padding: 2rem 0;
+}
+.flexRow--static-instagram :global(.vtex-rich-text-0-x-paragraph) {
+  margin: 0;
+  font-weight: 300;
+  font-size: 1.25rem;
+  font-family: Poppins, sans-serif;
+  max-width: 80%;
+  text-align: left;
+}
+
+.flexCol--static-instagram-right :global(.vtex-slider-layout-0-x-caretIcon) {
+  display: none !important;
+}
+.flexCol--static-instagram-right :global(.vtex-slider-layout-0-x-slide) {
+  margin-bottom: 0 !important;
+}
+
+.flexColChild--static-instagram-left :global(.vtex-rich-text-0-x-container) {
+  height: 100%;
+  padding: 0 33px;
+  box-shadow: 9px 0px 8px -8px rgba(0, 0, 0, 0.2509803922);
+  margin-right: 5px;
+}
+.flexColChild--static-instagram-right {
+  padding: 0 3rem;
+}
+.flexColChild--static-instagram-right :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  left: -3rem;
+}
+.flexColChild--static-instagram-right :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  right: -3rem;
+}
+
 .flexCol--container, .flexRow--container {
   max-width: 1280px;
   margin: 0 auto;

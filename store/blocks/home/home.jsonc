@@ -37,12 +37,14 @@
       "rich-text#blog-title",
       "blog-post-list",
 
-
       //Gray Section
-      
-      "flex-layout.row#bg-gray-section"
+      "flex-layout.row#bg-gray-section",
+
+      //Instagram Feed - not integrated, just static content
+       "flex-layout.row#static-instagram"
     ]
   },
+
 
   "list-context.image-list#demo": {
     "children": ["slider-layout#demo-images"],
