@@ -1,0 +1,41 @@
+{
+
+  "rich-text#shelf-title": {
+    "props": {
+      "text": "Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "Winter",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title3": {
+    "props": {
+      "text": "Spring",
+      "blockClass": "shelfTitle"
+    }
+  },
+
+
+  "flex-layout.row#shelf": {
+    "props": {
+      "blockClass": "container"
+    },
+    "children": ["list-context.product-list#demo1"]
+  },
+  "flex-layout.row#shelf2": {
+    "props": {
+      "blockClass": "container"
+    },
+    "children": ["list-context.product-list#demo2"]
+  },
+  "flex-layout.row#shelf3": {
+    "props": {
+      "blockClass": "container"
+    },
+    "children": ["list-context.product-list#demo3"]
+  }
+}

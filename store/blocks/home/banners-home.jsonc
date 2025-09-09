@@ -1,0 +1,197 @@
+{
+  // Banner #1
+  "flex-layout.row#banner-1": {
+    "props": {
+      "title": "Banner Promocional da Home",
+      "blockClass": ["container", "home-banner-1"],
+      "colSizing": "auto"
+    },
+    "children": ["flex-layout.col#banner-1-col-1", "flex-layout.col#banner-1-col-2"]
+  },
+
+  // Banner #2
+  "flex-layout.row#banner-2": {
+    "props": {
+      "title": "Banner Promocional da Home 2",
+      "blockClass": ["container", "home-banner-2"],
+      "colSizing": "auto"
+    },
+    "children": ["flex-layout.col#banner-2-col-1", "flex-layout.col#banner-2-col-2", "flex-layout.col#banner-2-col-3", "flex-layout.col#banner-2-col-4"]
+  },
+
+  // Banner #3
+  "flex-layout.row#banner-3": {
+    "props": {
+      "title": "Banner Promocional da Home 3",
+      "blockClass": ["container", "home-banner-3"],
+      "colSizing": "auto"
+    },
+    "children": ["flex-layout.col#banner-3-col-1", "flex-layout.col#banner-3-col-2"]
+  },
+
+  "flex-layout.col#banner-1-col-1": {
+    "children": [
+      "image#banner-1-col-1"
+    ],
+    "props": {
+      "blockClass": "banner-1-col-1",
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#banner-1-col-2": {
+    "props": {
+      "blockClass": "banner-1-col-2",
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "image#banner-1-col-2-banner-1",
+      "image#banner-1-col-2-banner-2"
+    ]
+  },
+  "flex-layout.col#banner-2-col-1": {
+    "children": [
+      "image#banner-2-col-1-banner-1"
+    ],
+    "props": {
+      "blockClass": ["banner-2-col-1", "banner-2-four-side-by-side"],
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#banner-2-col-2": {
+    "children": [
+      "image#banner-2-col-2-banner-2"
+    ],
+    "props": {
+      "blockClass": ["banner-2-col-2", "banner-2-four-side-by-side"],
+      "preventVerticalStretch": true
+    }
+  },
+  
+  "flex-layout.col#banner-2-col-3": {
+    "children": [
+      "image#banner-2-col-3-banner-3"
+    ],
+    "props": {
+      "blockClass": ["banner-2-col-3", "banner-2-four-side-by-side"],
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#banner-2-col-4": {
+    "children": [
+      "image#banner-2-col-4-banner-4"
+    ],
+    "props": {
+      "blockClass": ["banner-2-col-4", "banner-2-four-side-by-side"],
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#banner-3-col-1": {
+    "children": [
+      "image#banner-2-col-2-banner-2"
+    ],
+    "props": {
+      "blockClass": ["banner-3-col-1", "banner-3-two"],
+      "preventVerticalStretch": true
+    }
+  },
+  "flex-layout.col#banner-3-col-2": {
+    "children": [
+      "image#banner-2-col-2-banner-2"
+    ],
+    "props": {
+      "blockClass": ["banner-3-col-2", "banner-3-two"],
+      "preventVerticalStretch": true
+    }
+  },
+
+  "image#banner-1-col-1": {
+    "props": {
+      "blockClass": "banners-1-banners",
+      "title": "Wicomm",
+      "link": {
+        "url": "/",
+        "title": ""
+      }
+    }
+  },
+
+  "image#banner-1-col-2-banner-1": {
+    "props": {
+      "blockClass": "banners-1-banners-2",
+      "title": "Wicomm",
+      "link": {
+        "url": "/",
+        "title": ""
+      }
+    }
+  },
+
+  "image#banner-2-col-1-banner-1": {
+    "props": {
+      "blockClass": "banners-2-banners-1",
+      "title": "Wicomm",
+      "link": {
+        "url": "/",
+        "title": ""
+      }
+    }
+  },
+
+  "image#banner-2-col-2-banner-2": {
+    "props": {
+      "blockClass": "banners-2-banners-2",
+      "title": "Wicomm",
+      "link": {
+        "url": "/",
+        "title": ""
+      }
+    }
+  },
+
+  "image#banner-2-col-3-banner-3": {
+    "props": {
+      "blockClass": "banners-2-banners-3",
+      "title": "Wicomm",
+      "link": {
+        "url": "/",
+        "title": ""
+      }
+    }
+  },
+
+  "image#banner-2-col-4-banner-4": {
+    "props": {
+      "blockClass": "banners-2-banners-4",
+      "title": "Wicomm",
+      "link": {
+        "url": "/",
+        "title": ""
+      }
+    }
+  },
+
+  "image#banner-1-col-2-banner-2": {
+    "props": {
+      "blockClass": "banners-1-banners",
+      "title": "Wicomm",
+      "link": {
+        "url": "/",
+        "title": ""
+      }
+    }
+  },
+  "rich-text#title-banner-1": {
+    "props": {
+      "text": "Potencialize sua saúde com os nossos lançamentos",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#title-banner-2": {
+    "props": {
+      "text": "Desvende o segredo dos cabelos perfeitos com nosso cronograma capilar",
+      "blockClass": "shelfTitle"
+    }
+  }
+}
