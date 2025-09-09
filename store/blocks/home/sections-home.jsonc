@@ -1,0 +1,131 @@
+{
+
+    //Bg Gray Section
+    "flex-layout.row#bg-gray-section":{
+        "props": {
+            "blockClass": ["container", "home-bg-gray-section"],
+            "colSizing": "equal"
+        },
+        "children": [
+            "flex-layout.col#bg-gray-section"
+        ]
+    },
+
+    "flex-layout.col#bg-gray-section":{
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "rich-text#bg-gray-section",
+            "flex-layout.row#bg-gray-section-content"
+        ]
+    },
+
+
+    //Bg Gray Section Title
+    "rich-text#bg-gray-section":{
+        "props": {
+            "text": "Nossas Causas",
+            "blockClass": "shelfTitle",
+            "width": "100%"
+        }
+    },
+
+    "flex-layout.row#bg-gray-section-content":{
+        "props": {
+            "blockClass": ["home-bg-gray-section-content"]
+        },
+        "children": [
+            "flex-layout.col#bg-gray-section-content-1",
+            "flex-layout.col#bg-gray-section-content-2",
+            "flex-layout.col#bg-gray-section-content-3"
+        ]
+    },
+
+    "flex-layout.col#bg-gray-section-content-1":{
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "image#bg-gray-section-content-1-image",
+            "rich-text#bg-gray-section-content-1-text"
+        ]
+    },
+
+    "flex-layout.col#bg-gray-section-content-2":{
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "image#bg-gray-section-content-2-image",
+            "rich-text#bg-gray-section-content-2-text"
+        ]
+    },
+
+    "flex-layout.col#bg-gray-section-content-3":{
+        "props": {
+            "width": "100%"
+        },
+        "children": [
+            "image#bg-gray-section-content-3-image",
+            "rich-text#bg-gray-section-content-3-text"
+        ]
+    },
+
+    "rich-text#bg-gray-section-content-1-text": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": ""
+        }
+    },
+
+    "rich-text#bg-gray-section-content-2-text": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": ""
+        }
+    },
+
+    "rich-text#bg-gray-section-content-3-text": {
+        "props": {
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "text": ""
+        }
+    },
+
+    "image#bg-gray-section-content-1-image": {
+        "props": {
+            "blockClass": "bg-gray-section-content-1-image",
+            "title": "Wicomm",
+            "link": {
+                "url": "/",
+                "title": ""
+            }
+        }
+    },
+
+    "image#bg-gray-section-content-2-image": {
+        "props": {
+            "blockClass": "bg-gray-section-content-2-image",
+            "title": "Wicomm",
+            "link": {
+                "url": "/",
+                "title": ""
+            }
+        }
+    },
+
+    "image#bg-gray-section-content-3-image": {
+        "props": {
+            "blockClass": "bg-gray-section-content-3-image",
+            "title": "Wicomm",
+            "link": {
+                "url": "/",
+                "title": ""
+            }
+        }
+    }
+}

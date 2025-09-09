@@ -64,7 +64,8 @@
     "vtex.tab-layout": "0.x",
     "vtex.condition-layout": "2.x",
     "vtex.css-handles": "1.x",
-    "wicommpartnerbr.wicomm-offer-timer-app": "0.x"
+    "wicommpartnerbr.wicomm-offer-timer-app": "0.x",
+    "wicommpartnerbr.wicomm-blog-posts": "0.x"
   },
   "peerDependencies": {
     "vtex.reviews-and-ratings": "3.x",

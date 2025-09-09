@@ -102,6 +102,38 @@
   padding-left: 10px;
 }
 
+:global(.vtex-render__container-id-bg-gray-section) {
+  background-color: rgba(238, 238, 238, 0.9607843137);
+}
+:global(.vtex-render__container-id-bg-gray-section) :global(.vtex-store-components-3-x-container) {
+  padding: 0 0 2rem;
+}
+:global(.vtex-render__container-id-bg-gray-section) .flexRow--home-bg-gray-section-content {
+  margin: 0 -10px;
+}
+:global(.vtex-render__container-id-bg-gray-section) .flexRowContent--home-bg-gray-section-content .flexCol {
+  border: 1px solid #BCBABA;
+  border-radius: 8px;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+:global(.vtex-render__container-id-bg-gray-section) .flexRowContent--home-bg-gray-section-content .stretchChildrenWidth {
+  padding: 0 10px;
+}
+:global(.vtex-render__container-id-bg-gray-section) .flexRowContent--home-bg-gray-section-content :global(.vtex-rich-text-0-x-heading) {
+  margin: 0.5rem 0;
+  font-weight: 500;
+  font-size: 0.875rem;
+  font-family: Poppins, sans-serif;
+}
+:global(.vtex-render__container-id-bg-gray-section) .flexRowContent--home-bg-gray-section-content :global(.vtex-rich-text-0-x-paragraph) {
+  font-weight: 300;
+  font-size: 0.75rem;
+  font-family: Poppins, sans-serif;
+  padding: 0 4.375rem;
+  margin: 0;
+}
+
 .flexCol--container, .flexRow--container {
   max-width: 1280px;
   margin: 0 auto;

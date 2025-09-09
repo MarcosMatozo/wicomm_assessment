@@ -33,6 +33,15 @@
       //Banners #3
       "flex-layout.row#banner-3",
 
+      //Custom app - Blog Posts
+      "rich-text#blog-title",
+      "blog-post-list",
+
+
+      //Gray Section
+      
+      "flex-layout.row#bg-gray-section",
+
       "newsletter"
     ]
   },
@@ -137,6 +146,13 @@
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
+    }
+  },
+
+  "rich-text#blog-title":{
+    "props": {
+      "text": "Nosso Blog",
+      "blockClass": "shelfTitle"
     }
   }
 }
