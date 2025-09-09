@@ -1,10 +1,10 @@
-.menuContainerNav .styledLinkContainer {
+:global(.vtex-flex-layout-0-x-flexRow--category-menu) .menuContainerNav .styledLinkContainer {
   margin: 0 30px 0 0;
   display: flex;
   align-items: center;
   padding: 0;
 }
-.menuContainerNav .styledLinkContainer .styledLink {
+:global(.vtex-flex-layout-0-x-flexRow--category-menu) .menuContainerNav .styledLinkContainer .styledLink {
   display: flex;
   border-radius: 4px;
   padding: 0 18px;
@@ -13,22 +13,22 @@
   border: 1px solid transparent;
   transition: all 0.1s ease;
 }
-.menuContainerNav .styledLinkContainer .styledLink:hover {
+:global(.vtex-flex-layout-0-x-flexRow--category-menu) .menuContainerNav .styledLinkContainer .styledLink:hover {
   border-color: #FFB802;
-  transform: scale(1.05);
+  transform: scale(1.01);
 }
-.menuContainerNav .styledLinkContainer .styledLink--highlight {
+:global(.vtex-flex-layout-0-x-flexRow--category-menu) .menuContainerNav .styledLinkContainer .styledLink--highlight {
   border: none;
   background-color: transparent;
   padding: 0;
 }
-.menuContainerNav .styledLinkContainer .styledLink--highlight .styledLinkContent {
+:global(.vtex-flex-layout-0-x-flexRow--category-menu) .menuContainerNav .styledLinkContainer .styledLink--highlight .styledLinkContent {
   color: #FFB802;
 }
-.menuContainerNav .styledLinkContainer .styledLinkIcon {
+:global(.vtex-flex-layout-0-x-flexRow--category-menu) .menuContainerNav .styledLinkContainer .styledLinkIcon {
   margin: 0 0.5rem 0 0;
 }
-.menuContainerNav .styledLinkContainer .styledLinkContent {
+:global(.vtex-flex-layout-0-x-flexRow--category-menu) .menuContainerNav .styledLinkContainer .styledLinkContent {
   font-size: 0.875rem;
   font-weight: 500;
   color: #000;
@@ -37,7 +37,7 @@
   display: flex;
   align-items: center;
 }
-.menuContainerNav .styledLinkContainer .styledLinkContent--has-submenu::after {
+:global(.vtex-flex-layout-0-x-flexRow--category-menu) .menuContainerNav .styledLinkContainer .styledLinkContent--has-submenu::after {
   content: "";
   width: 11px;
   height: 7px;

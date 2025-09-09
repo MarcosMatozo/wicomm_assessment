@@ -1,49 +1,50 @@
 @use "../variables" as *
 
-.menuContainerNav
-    .styledLinkContainer
-        margin: 0 30px 0 0
-        display: flex
-        align-items: center
-        padding: 0
-        .styledLink
-            display: flex
-            border-radius: 4px
-            padding: 0 18px
-            background-color: #FAFAFA
-            min-height: 36px
-            border: 1px solid transparent
-            transition: all 0.1s ease
-            &:hover
-                border-color: $sec-color
-                transform: scale(1.05)
-            &--highlight
-                border: none
-                background-color: transparent
-                padding: 0
-                .styledLinkContent
-                    color: $sec-color
-                    
-
-        .styledLinkIcon
-            margin: 0 0.5rem 0 0
-        .styledLinkContent
-            font-size: 0.875rem
-            font-weight: 500
-            color: #000
-            text-transform: uppercase
-            font-family: $main-font
+:global(.vtex-flex-layout-0-x-flexRow--category-menu)
+    .menuContainerNav
+        .styledLinkContainer
+            margin: 0 30px 0 0
             display: flex
             align-items: center
-            &--has-submenu
-                &::after
-                    content: ""
-                    width: 11px
-                    height: 7px
-                    background-image: url("assets/menu-arrow-down.svg")
-                    background-repeat: no-repeat
-                    background-size: contain
-                    margin-left: 8px
+            padding: 0
+            .styledLink
+                display: flex
+                border-radius: 4px
+                padding: 0 18px
+                background-color: #FAFAFA
+                min-height: 36px
+                border: 1px solid transparent
+                transition: all 0.1s ease
+                &:hover
+                    border-color: $sec-color
+                    transform: scale(1.01)
+                &--highlight
+                    border: none
+                    background-color: transparent
+                    padding: 0
+                    .styledLinkContent
+                        color: $sec-color
+                        
+
+            .styledLinkIcon
+                margin: 0 0.5rem 0 0
+            .styledLinkContent
+                font-size: 0.875rem
+                font-weight: 500
+                color: #000
+                text-transform: uppercase
+                font-family: $main-font
+                display: flex
+                align-items: center
+                &--has-submenu
+                    &::after
+                        content: ""
+                        width: 11px
+                        height: 7px
+                        background-image: url("assets/menu-arrow-down.svg")
+                        background-repeat: no-repeat
+                        background-size: contain
+                        margin-left: 8px
 
 // menuItem = <li>
 .menuItem

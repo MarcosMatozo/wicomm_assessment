@@ -376,7 +376,7 @@
   "rich-text#footer-menu-2":{
     "props": {
       "text": "Representante",
-      "blockClass": "footer-menu-title"
+      "blockClass": ["footer-menu-title", "mt"]
     }
   },
 
