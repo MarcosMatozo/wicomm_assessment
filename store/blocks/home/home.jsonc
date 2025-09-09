@@ -40,9 +40,7 @@
 
       //Gray Section
       
-      "flex-layout.row#bg-gray-section",
-
-      "newsletter"
+      "flex-layout.row#bg-gray-section"
     ]
   },
 
