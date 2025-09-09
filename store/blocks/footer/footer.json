@@ -25,9 +25,145 @@
       "children": [
           "flex-layout.row#newsletter",
           "flex-layout.row#footer-1-desktop",
-          "flex-layout.row#footer-2-desktop",
-          "flex-layout.row#footer-3-desktop"
+          "flex-layout.row#footer-2-desktop"
       ]
+  },
+
+  
+  "flex-layout.col#footer-1-desktop-col-4-row-1-content":{
+      "props": {
+          "width": "100%",
+          "blockClass": "info-icon-text"
+      },
+      "children": [
+          "image#icon-info-icon-text-1",
+          "rich-text#atendimento-infos-1"
+      ]
+  },
+
+
+  "flex-layout.col#footer-1-desktop-col-5-row-1-content":{
+      "props": {
+          "width": "100%",
+          "blockClass": "info-icon-text"
+      },
+      "children": [
+          "image#icon-info-icon-text-3",
+          "rich-text#atendimento-infos-3"
+      ]
+  },
+
+  "flex-layout.col#footer-1-desktop-col-5-row-2-content":{
+      "props": {
+          "width": "100%",
+          "blockClass": "info-icon-text"
+      },
+      "children": [
+          "image#icon-info-icon-text-4",
+          "rich-text#atendimento-infos-4"
+      ]
+  },
+
+  "flex-layout.col#footer-1-desktop-col-5-row-3-content":{
+      "props": {
+          "width": "100%",
+          "blockClass": "info-icon-text"
+      },
+      "children": [
+          "image#icon-info-icon-text-5",
+          "rich-text#atendimento-infos-5"
+      ]
+  },
+  
+  "flex-layout.col#footer-1-desktop-col-4-row-2-content":{
+      "props": {
+          "width": "100%",
+          "blockClass": "info-icon-text"
+      },
+      "children": [
+          "image#icon-info-icon-text-2",
+          "rich-text#atendimento-infos-2"
+      ]
+  },
+
+  "rich-text#atendimento-infos-1":{
+    "props": {
+      "text": "(11) 2388-8203 (custo de ligação local)",
+      "blockClass": "text-info-icon-text"
+    }
+  },
+
+  "rich-text#atendimento-infos-2":{
+    "props": {
+      "text": "suporte@amakhaparis.com.br",
+      "blockClass": "text-info-icon-text"
+    }
+  },
+
+  "rich-text#atendimento-infos-3":{
+    "props": {
+      "text": "Sede: R. do Sacramento, 522  São Bernardo do Campo - SP 09640-000",
+      "blockClass": "text-info-icon-text"
+    }
+  },
+
+  "rich-text#atendimento-infos-4":{
+    "props": {
+      "text": "Filial Manaus:  Pc Chile, Nº 80 - Adrianópolis",
+      "blockClass": "text-info-icon-text"
+    }
+  },
+
+  "rich-text#atendimento-infos-5":{
+    "props": {
+      "text": "Filial Belém:  Av Nazaré, Nº 731 - Nazaré",
+      "blockClass": "text-info-icon-text"
+    }
+  },
+
+  "image#icon-info-icon-text-1":{
+    "props": {
+      "src": "https://wicommpartnerbr.vtexassets.com/assets/vtex.file-manager-graphql/images/10a0fe46-9670-421b-b38f-9b503c3e378b___6c651d55309c397cd4534d35b8cbfe63.svg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "icon-info-icon-text"
+    }
+  },
+
+  "image#icon-info-icon-text-2":{
+    "props": {
+      "src": "https://wicommpartnerbr.vtexassets.com/assets/vtex.file-manager-graphql/images/10a0fe46-9670-421b-b38f-9b503c3e378b___6c651d55309c397cd4534d35b8cbfe63.svg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "icon-info-icon-text"
+    }
+  },
+
+  "image#icon-info-icon-text-3":{
+    "props": {
+      "src": "https://wicommpartnerbr.vtexassets.com/assets/vtex.file-manager-graphql/images/10a0fe46-9670-421b-b38f-9b503c3e378b___6c651d55309c397cd4534d35b8cbfe63.svg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "icon-info-icon-text"
+    }
+  },
+
+  "image#icon-info-icon-text-4":{
+    "props": {
+      "src": "https://wicommpartnerbr.vtexassets.com/assets/vtex.file-manager-graphql/images/10a0fe46-9670-421b-b38f-9b503c3e378b___6c651d55309c397cd4534d35b8cbfe63.svg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "icon-info-icon-text"
+    }
+  },
+
+  "image#icon-info-icon-text-5":{
+    "props": {
+      "src": "https://wicommpartnerbr.vtexassets.com/assets/vtex.file-manager-graphql/images/10a0fe46-9670-421b-b38f-9b503c3e378b___6c651d55309c397cd4534d35b8cbfe63.svg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "icon-info-icon-text"
+    }
   },
 
   "newsletter-form": {
@@ -65,20 +201,221 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
-      "footer-spacer",
-      "social-networks"
+      "flex-layout.col#footer-1-desktop-col-1",
+      "flex-layout.col#footer-1-desktop-col-2",
+      "flex-layout.col#footer-1-desktop-col-3",
+      "flex-layout.col#footer-1-desktop-col-4",
+      "flex-layout.col#footer-1-desktop-col-5"
     ],
     "props": {
-      "blockClass": "menu-row",
+      "blockClass": "footer-section",
       "paddingTop": 6,
       "paddingBottom": 3
     }
   },
 
+   "flex-layout.col#footer-1-desktop-col-1":{
+      "props": {
+          "width": "100%",
+          "blockClass": ["footer-col", "footer-col-1"],
+          "preventVerticalStretch": true,
+          "preventHorizontalStretch": true
+          
+      },
+      "children": [
+          "image#footer-logo",
+          "social-networks",
+          "rich-text#footer-description"
+      ]
+  },
+
+   "flex-layout.col#footer-1-desktop-col-2":{
+      "props": {
+          "width": "100%",
+          "blockClass": ["footer-col", "footer-col-2"],
+          "preventVerticalStretch": true,
+          "preventHorizontalStretch": true,
+          "colSizing": "100%"
+      },
+      "children": [
+          "flex-layout.row#footer-1-desktop-col-2-row-1",
+          "flex-layout.row#footer-1-desktop-row-2",
+          "flex-layout.row#footer-1-desktop-row-3"
+      ]
+  },
+
+   "flex-layout.col#footer-1-desktop-col-3":{
+      "props": {
+          "width": "100%",
+          "blockClass": ["footer-col", "footer-col-3"],
+          "preventVerticalStretch": true,
+          "preventHorizontalStretch": true,
+          "colSizing": "100%"
+      },
+      "children": [
+          "flex-layout.row#footer-1-desktop-col-3-row-1"
+      ]
+  },
+
+   "flex-layout.col#footer-1-desktop-col-4":{
+      "props": {
+          "width": "100%",
+          "blockClass": ["footer-col", "footer-col-4"],
+          "preventVerticalStretch": true,
+          "preventHorizontalStretch": true,
+          "colSizing": "100%"
+      },
+      "children": [
+          "flex-layout.row#footer-1-desktop-col-4-row-1",
+          "flex-layout.row#footer-1-desktop-col-4-row-2"
+      ]
+  },
+
+   "flex-layout.col#footer-1-desktop-col-5":{
+      "props": {
+          "width": "100%",
+          "blockClass": ["footer-col", "footer-col-5"],
+          "preventVerticalStretch": true,
+          "preventHorizontalStretch": true,
+          "colSizing": "100%"
+      },
+      "children": [
+          "flex-layout.row#footer-1-desktop-col-5-row-1"
+      ]
+  },
+
+  "flex-layout.row#footer-1-desktop-col-2-row-1": {
+    "children": [
+        "rich-text#footer-menu-1",
+         "vtex.menu@2.x:menu#footer-institutional"
+    ],
+    "props": {
+      "colSizing": "100%",
+      "blockClass": ["footer-menu"]
+    }
+  },
+  "flex-layout.row#footer-1-desktop-col-3-row-1": {
+    "children": [
+        "rich-text#footer-menu-3",
+         "vtex.menu@2.x:menu#footer-ajuda"
+    ],
+    "props": {
+      "colSizing": "100%",
+      "blockClass": ["footer-menu"]
+    }
+  },
+  "flex-layout.row#footer-1-desktop-col-4-row-1": {
+    "children": [
+        "rich-text#footer-menu-4",
+        "flex-layout.col#footer-1-desktop-col-4-row-1-content"
+    ],
+    "props": {
+      "colSizing": "100%",
+      "blockClass": ["footer-menu"]
+    }
+  },
+  "flex-layout.row#footer-1-desktop-col-4-row-2": {
+    "children": [
+         "flex-layout.col#footer-1-desktop-col-4-row-2-content"
+    ],
+    "props": {
+      "colSizing": "100%",
+      "blockClass": ["footer-menu"]
+    }
+  },
+  "flex-layout.row#footer-1-desktop-col-5-row-1": {
+    "children": [
+        "rich-text#footer-menu-5",
+        "flex-layout.col#footer-1-desktop-col-5-row-1-content",
+        "flex-layout.col#footer-1-desktop-col-5-row-2-content",
+        "flex-layout.col#footer-1-desktop-col-5-row-3-content"
+    ],
+    "props": {
+      "colSizing": "100%",
+      "blockClass": ["footer-menu"]
+    }
+  },
+  
+  "flex-layout.row#footer-1-desktop-row-2": {
+    "children": [
+          "rich-text#footer-menu-2",
+          "vtex.menu@2.x:menu#Representante"
+      ],
+    "props":{
+        "colSizing": "100%",
+      "blockClass": ["footer-menu"]
+    }
+  },
+  
+  "flex-layout.row#footer-1-desktop-row-3": {
+    "children": [
+          "image#footer-premium-quality-seal"
+      ],
+    "props":{
+        "colSizing": "100%",
+        "blockClass": "footer-quality-seal"
+    }
+  },
+
+  "image#footer-premium-quality-seal":{
+    "props": {
+      "src": "https://wicommpartnerbr.vtexassets.com/assets/vtex.file-manager-graphql/images/10a0fe46-9670-421b-b38f-9b503c3e378b___6c651d55309c397cd4534d35b8cbfe63.svg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "footer-premium-quality-seal"
+    }
+  },
+
+  "rich-text#footer-menu-1":{
+    "props": {
+      "text": "Institucional",
+      "blockClass": "footer-menu-title"
+    }
+  },
+
+  "rich-text#footer-menu-2":{
+    "props": {
+      "text": "Representante",
+      "blockClass": "footer-menu-title"
+    }
+  },
+
+  "rich-text#footer-menu-3":{
+    "props": {
+      "text": "Ajuda",
+      "blockClass": "footer-menu-title"
+    }
+  },
+
+  "rich-text#footer-menu-4":{
+    "props": {
+      "text": "Atendimento",
+      "blockClass": "footer-menu-title"
+    }
+  },
+
+  "rich-text#footer-menu-5":{
+    "props": {
+      "text": "Onde estamos",
+      "blockClass": "footer-menu-title"
+    }
+  },
+
+  "image#footer-logo":{
+    "props": {
+      "src": "https://wicommpartnerbr.vtexassets.com/assets/vtex.file-manager-graphql/images/10a0fe46-9670-421b-b38f-9b503c3e378b___6c651d55309c397cd4534d35b8cbfe63.svg",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "footer-logo"
+    }
+  },
+
+  "rich-text#footer-description":{
+    "props": {
+      "text": "O nome Amakha tem origem no idioma Zulu, uma das 11 línguas oficiais da África do Sul, e significa perfume, essência. Esse nome foi escolhido pela origem desse idioma, que..",
+      "blockClass": "footer-description"
+    }
+  },
   "social-networks": {
     "props": {
       "socialNetworks": [
@@ -91,10 +428,6 @@
           "url": "https://www.instagram.com/vtextruecloud/"
         },
         {
-          "name": "Twitter",
-          "url": "https://twitter.com/vtexonline"
-        },
-        {
           "name": "Youtube",
           "url": "https://www.youtube.com/user/VTEXTV"
         }
@@ -103,9 +436,50 @@
   },
 
   "flex-layout.row#footer-2-desktop": {
+    "children": ["flex-layout.col#footer-2-desktop-1", "flex-layout.col#footer-2-desktop-2"],
+    "props": {
+      "blockClass": "payment-methods",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#footer-2-desktop-1":{
     "children": ["accepted-payment-methods"],
     "props": {
-      "blockClass": "payment-methods"
+      "blockClass": "payment-method-col"
+    }
+  },
+
+  "flex-layout.col#footer-2-desktop-2":{
+    "children": [ "image#footer-logo-1", "image#footer-logo-2"],
+    "props": {
+      "blockClass": "logo-col"
+    }
+  },
+
+  "image#footer-logo-1":{
+    "props":{
+      "src": "https://wicommpartnerbr.vtexassets.com/assets/vtex.file-manager-graphql/images/10a0fe46-9670-421b-b38f-9b503c3e378b___6c651d55309c397cd4534d35b8cbfe63.svg",
+      "blockClass": "footer-logo-rodape",
+      "width": "72px",
+      "height": "18px",
+      "title": "Wicomm",
+      "link": {
+          "url": "https://www.wicomm.com.br/",
+          "title": "Wicomm"
+        }
+    }
+  },
+  "image#footer-logo-2":{
+    "props":{
+      "src": "https://wicommpartnerbr.vtexassets.com/assets/vtex.file-manager-graphql/images/10a0fe46-9670-421b-b38f-9b503c3e378b___6c651d55309c397cd4534d35b8cbfe63.svg",
+      "blockClass": "footer-logo-rodape",
+      "width": "68px",
+      "height": "35px",
+      "title": "Wishlist",
+      "link": {
+          "url": "https://www.wicomm.com.br/",
+          "title": "Wicomm"
+        }
     }
   },
   "accepted-payment-methods": {

@@ -71,45 +71,44 @@
     }
   },
 
-  "vtex.menu@2.x:menu#footer-decoration": {
+  "vtex.menu@2.x:menu#footer-institutional": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
-      "menu-item#tvs"
+      "menu-item#quem-somos",
+      "menu-item#mapa-do-site"
     ]
   },
 
-  "menu-item#smartphones": {
+  "menu-item#quem-somos": {
     "props": {
-      "id": "menu-item-smartphones",
+      "id": "quem-somos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/smartphones",
+        "href": "/quem-somos",
         "noFollow": true,
-        "tagTitle": "Smartphones",
-        "text": "Smartphones"
+        "tagTitle": "Quem somos",
+        "text": "Quem somos"
       }
     }
   },
 
-  "menu-item#videogames": {
+  "menu-item#mapa-do-site": {
     "props": {
-      "id": "menu-item-videogames",
+      "id": "mapa-do-site",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/decoration/videogames",
+        "href": "/mapa-do-site",
         "noFollow": true,
-        "tagTitle": "Videogames",
-        "text": "Videogames"
+        "tagTitle": "Mapa do site",
+        "text": "Mapa do site"
       }
     }
   },
@@ -130,76 +129,74 @@
     }
   },
 
-  "vtex.menu@2.x:menu#footer-bags": {
+  "vtex.menu@2.x:menu#Representante": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#bags",
-      "menu-item#backpacks",
-      "menu-item#necessaire"
+      "menu-item#sou-consultor",
+      "menu-item#quero-ser-consultor",
+      "menu-item#encontre-um-consultor"
     ]
   },
 
-  "menu-item#bags": {
+  "menu-item#sou-consultor": {
     "props": {
-      "id": "menu-item-bags",
+      "id": "sou-consultor",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/d",
+        "href": "/sou-consultor",
         "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
+        "tagTitle": "Sou consultor",
+        "text": "Sou consultor"
       }
     }
   },
 
-  "menu-item#backpacks": {
+  "menu-item#quero-ser-consultor": {
     "props": {
-      "id": "menu-item-backpacks",
+      "id": "quero-ser-consultor",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/backpacks",
+        "href": "/quero-ser-consultor",
         "noFollow": true,
-        "tagTitle": "Backpacks",
-        "text": "Backpacks"
+        "tagTitle": "Quero ser consultor",
+        "text": "Quero ser consultor"
       }
     }
   },
 
-  "menu-item#necessaire": {
+  "menu-item#encontre-um-consultor": {
     "props": {
-      "id": "menu-item-necessaire",
+      "id": "encontre-um-consultor",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/necessaire",
+        "href": "/encontre-um-consultor",
         "noFollow": true,
-        "tagTitle": "Necessaire",
-        "text": "Necessaire"
+        "tagTitle": "Encontre um consultor",
+        "text": "Encontre um consultor"
       }
     }
   },
 
-  "vtex.menu@2.x:menu#footer-clothing": {
+  "vtex.menu@2.x:menu#footer-ajuda": {
     "props": {
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing",
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
-      "menu-item#sweatshirt",
-      "menu-item#cropped"
+      "menu-item#como-comprar",
+      "menu-item#politica-privacidade",
+      "menu-item#politica-entrega",
+      "menu-item#trocas-reembolso"
     ]
   },
 
@@ -208,13 +205,13 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#clothing-mobile",
+      "menu-item#como-comprar-mobile",
       "menu-item#decoration-mobile",
       "menu-item#sale-mobile"
     ]
   },
 
-  "menu-item#clothing-mobile": {
+  "menu-item#como-comprar-mobile": {
     "props": {
       "id": "menu-item-category-clothing",
       "type": "custom",
@@ -239,9 +236,9 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#shorts",
-      "menu-item#tank-tops",
-      "menu-item#shirts",
+      "menu-item#politica-privacidade",
+      "menu-item#politica-entrega",
+      "menu-item#trocas-reembolso",
       "menu-item#sweatshirt",
       "menu-item#cropped"
     ]
@@ -265,8 +262,8 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
+      "menu-item#quem-somos",
+      "menu-item#mapa-do-site",
       "menu-item#tvs"
     ]
   },
@@ -289,72 +286,72 @@
       "orientation": "vertical"
     },
     "children": [
-      "menu-item#smartphones",
-      "menu-item#videogames",
+      "menu-item#quem-somos",
+      "menu-item#mapa-do-site",
       "menu-item#tvs"
     ]
   },
 
-  "menu-item#clothing": {
+  "menu-item#como-comprar": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "id": "como-comprar",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/d",
+        "href": "/como-comprar",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "Como comprar",
+        "text": "Como comprar"
       }
     }
   },
 
-  "menu-item#shorts": {
+  "menu-item#politica-privacidade": {
     "props": {
-      "id": "menu-item-shorts",
+      "id": "politica-privacidade",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shorts",
+        "href": "/politica-privacidade",
         "noFollow": false,
-        "tagTitle": "Shorts",
-        "text": "Shorts"
+        "tagTitle": "Politica de Privacidade",
+        "text": "Politica de Privacidade"
       }
     }
   },
 
-  "menu-item#tank-tops": {
+  "menu-item#politica-entrega": {
     "props": {
-      "id": "menu-item-tank-tops",
+      "id": "politica-entrega",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/tank-tops",
+        "href": "/politica-entrega",
         "noFollow": false,
-        "tagTitle": "Tank tops",
-        "text": "Tank tops"
+        "tagTitle": "Politica de entrega",
+        "text": "Politica de entrega"
       }
     }
   },
 
-  "menu-item#shirts": {
+  "menu-item#trocas-reembolso": {
     "props": {
-      "id": "menu-item-shirts",
+      "id": "trocas-reembolso",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/clothing/shirts",
+        "href": "/trocas-reembolso",
         "noFollow": false,
-        "tagTitle": "Shirts",
-        "text": "Shirts"
+        "tagTitle": "Trocas e reembolso",
+        "text": "Trocas e reembolso"
       }
     }
   },

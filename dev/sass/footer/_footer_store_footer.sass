@@ -1,4 +1,28 @@
 .footerLayout
     background-color: #EEEEEE
     padding: 2rem 0 4rem
-    
+.socialNetworksContainer
+    justify-content: center
+.socialNetworkLink
+    &::before
+        content: ''
+        background-position: center
+        background-repeat: no-repeat
+        width: 38px
+        height: 38px
+    &--facebook
+        &::before
+            background-image: url("assets/footer-FACEBOOK.svg")
+    &--instagram
+        &::before
+            background-image: url("assets/footer-INSTAGRAM.svg")
+    &--youtube
+        &::before
+            background-image: url("assets/footer-YOUTUBE.svg")
+    .socialNetworkImage
+        display: none
+
+:global(.vtex-store-components-3-x-imageElementLink--footer-logo-rodape)
+    :global(.vtex-store-components-3-x-imageElement)
+        width: auto !important
+        height: auto !important

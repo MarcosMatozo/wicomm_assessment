@@ -173,3 +173,81 @@
 .flexRowContent--selling-price-savings {
   margin-bottom: 5px;
 }
+
+.flexRowContent--footer-menu {
+  flex-wrap: wrap;
+}
+.flexRowContent--footer-menu .stretchChildrenWidth {
+  width: 100% !important;
+}
+.flexRowContent--footer-section {
+  padding: 2rem 0;
+  border-top: 1px solid #BCBABA;
+  border-bottom: 1px solid #BCBABA;
+}
+
+.flexRow--footer-section {
+  margin: 0 -10px;
+}
+.flexRow--footer-quality-seal .stretchChildrenWidth {
+  justify-content: start;
+  margin-top: 20px;
+}
+.flexRow--footer-menu .flexCol--info-icon-text {
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+.flexRow--footer-menu .flexCol--info-icon-text .flexColChild--info-icon-text {
+  display: flex;
+}
+.flexRow--footer-menu .flexCol--info-icon-text .flexColChild--info-icon-text :global(.vtex-store-components-3-x-imageElement) {
+  margin-right: 10px;
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.flexCol--payment-method-col {
+  flex-direction: row;
+}
+.flexCol--payment-method-col::before {
+  content: "FORMAS DE PAGAMENTO:";
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 1rem;
+  margin-right: 1rem;
+  font-family: Poppins, sans-serif;
+}
+.flexCol--logo-col {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.flexColChild--footer-col {
+  padding: 0 10px;
+}
+.flexColChild--footer-col.flexColChild--footer-col-1 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.flexColChild--footer-col.flexColChild--footer-col-4 .flexColChild--info-icon-text {
+  align-items: center;
+}
+.flexColChild :global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0;
+}
+.flexColChild :global(.vtex-menu-2-x-styledLinkContainer) :global(.vtex-menu-2-x-styledLink):not(.forceCss) {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 0 0 0.5rem;
+  min-height: unset;
+  border: none;
+  transition: unset;
+  font-weight: 300;
+  font-family: Poppins, sans-serif;
+}
+.flexColChild :global(.vtex-menu-2-x-styledLinkContainer) :global(.vtex-menu-2-x-styledLink):not(.forceCss) :global(.vtex-menu-2-x-styledLinkContent) {
+  text-transform: none;
+  font-weight: 300;
+}
