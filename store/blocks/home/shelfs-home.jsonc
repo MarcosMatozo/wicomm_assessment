@@ -4,19 +4,22 @@
     "props": {
       "text": "Summer",
       "blockClass": "shelfTitle"
-    }
+    },
+    "title": "Shelf Title"
   },
   "rich-text#shelf-title2": {
     "props": {
       "text": "Winter",
       "blockClass": "shelfTitle"
-    }
+    },
+    "title": "Shelf Title"
   },
   "rich-text#shelf-title3": {
     "props": {
       "text": "Spring",
       "blockClass": "shelfTitle"
-    }
+    },
+    "title": "Shelf Title"
   },
 
 

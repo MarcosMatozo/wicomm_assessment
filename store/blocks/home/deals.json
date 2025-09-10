@@ -5,7 +5,8 @@
     ],
     "props": {
       "blockClass": ["home-deals"]
-    }
+    },
+    "title": "Benefits bar"
   },
   
   "flex-layout.col#deals-container-col":{
