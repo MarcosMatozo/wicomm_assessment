@@ -27,18 +27,21 @@
     "props": {
       "blockClass": "container"
     },
-    "children": ["list-context.product-list#demo1"]
+    "children": ["list-context.product-list#demo1"],
+    "title": "Shelf"
   },
   "flex-layout.row#shelf2": {
     "props": {
       "blockClass": "container"
     },
-    "children": ["list-context.product-list#demo2"]
+    "children": ["list-context.product-list#demo2"],
+    "title": "Shelf"
   },
   "flex-layout.row#shelf3": {
     "props": {
       "blockClass": "container"
     },
-    "children": ["list-context.product-list#demo3"]
+    "children": ["list-context.product-list#demo3"],
+    "title": "Shelf"
   }
 }

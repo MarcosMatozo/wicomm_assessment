@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#topbar",
       "sticky-layout#4-desktop"
-    ]
+    ],
+    "title": "Header Desktop"
   },
 
   
@@ -23,7 +24,8 @@
     },
     "children": [
       "flex-layout.col#topbar"
-    ]
+    ],
+    "title": "Topbar"
   },
   
 

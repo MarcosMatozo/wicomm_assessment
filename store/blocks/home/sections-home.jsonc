@@ -8,7 +8,8 @@
         },
         "children": [
             "flex-layout.col#bg-gray-section"
-        ]
+        ],
+        "title": "Gray Section"
     },
 
     "flex-layout.col#bg-gray-section":{
@@ -28,7 +29,8 @@
             "text": "Nossas Causas",
             "blockClass": "shelfTitle",
             "width": "100%"
-        }
+        },
+        "title": "Gray Section Title"
     },
 
     "flex-layout.row#bg-gray-section-content":{
@@ -80,7 +82,8 @@
         "children": [
             "flex-layout.col#static-instagram-left",
             "flex-layout.col#static-instagram-right"
-        ]
+        ],
+        "title": "Static Instagram"
     },
 
     "flex-layout.col#static-instagram-left":{

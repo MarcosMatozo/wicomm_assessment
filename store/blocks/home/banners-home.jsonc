@@ -6,7 +6,8 @@
       "blockClass": ["container", "home-banner-1"],
       "colSizing": "auto"
     },
-    "children": ["flex-layout.col#banner-1-col-1", "flex-layout.col#banner-1-col-2"]
+    "children": ["flex-layout.col#banner-1-col-1", "flex-layout.col#banner-1-col-2"],
+    "title": "Promotional Banner 1"
   },
 
   // Banner #2
@@ -16,7 +17,8 @@
       "blockClass": ["container", "home-banner-2"],
       "colSizing": "auto"
     },
-    "children": ["flex-layout.col#banner-2-col-1", "flex-layout.col#banner-2-col-2", "flex-layout.col#banner-2-col-3", "flex-layout.col#banner-2-col-4"]
+    "children": ["flex-layout.col#banner-2-col-1", "flex-layout.col#banner-2-col-2", "flex-layout.col#banner-2-col-3", "flex-layout.col#banner-2-col-4"],
+    "title": "Promotional Banner 2"
   },
 
   // Banner #3
@@ -26,7 +28,8 @@
       "blockClass": ["container", "home-banner-3"],
       "colSizing": "auto"
     },
-    "children": ["flex-layout.col#banner-3-col-1", "flex-layout.col#banner-3-col-2"]
+    "children": ["flex-layout.col#banner-3-col-1", "flex-layout.col#banner-3-col-2"],
+    "title": "Promotional Banner 3"
   },
 
   "flex-layout.col#banner-1-col-1": {
@@ -186,12 +189,14 @@
     "props": {
       "text": "Potencialize sua saúde com os nossos lançamentos",
       "blockClass": "shelfTitle"
-    }
+    },
+    "title": "Banners Title"
   },
   "rich-text#title-banner-2": {
     "props": {
       "text": "Desvende o segredo dos cabelos perfeitos com nosso cronograma capilar",
       "blockClass": "shelfTitle"
-    }
+    },
+    "title": "Banners Title"
   }
 }

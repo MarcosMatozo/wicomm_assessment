@@ -153,6 +153,7 @@
     "props": {
       "text": "Nosso Blog",
       "blockClass": "shelfTitle"
-    }
+    },
+    "title": "Blog Title"
   }
 }
